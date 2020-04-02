@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ous</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="os-phrases" id="os-phrases">
+			<h2>CREATIVE DESGIN</h2>
+			<h2>WICH MAKE</h2>
+			<h2>EVERYTHING</h2>
+			<h2>COOL</h2>
+			<h2>AND</h2>
+			<h2>BEAUTIFUL</h2>
+			<h2>YES IT IS</h2>
+			
+		</div>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+	<script type="text/javascript" src="js/jquery.lettering.js"></script>
+	<script>
+		
+     $(document).ready(function(){
+     $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+     })
+
+
+	</script>
+
+</body>
+</html>
